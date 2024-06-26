@@ -1,5 +1,220 @@
 ---
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+layout: default
 ---
+
+<section class="showcase">
+    <div class="content">
+        <h1>Spatial Statistics Lab.</h1>
+    </div>
+</section>
+
+<section id="about">
+    
+    <h2>Research Interest</h2>
+    <ul class="research-interests">
+        <li>Spatial Statistics</li>
+        <li>Spatio-Temporal Analysis</li>
+        <li>Biomedical Engineering Analysis</li>
+        <li>Spectral Analysis, Spatial Epidemiology</li>
+        <li>Spatial Epidemiology-disease mapping</li>
+        <li>Neuroimaging Statistics</li>
+        <li>Bayesian Regularization regression model</li>
+    </ul>
+
+
+
+    <h2>Contact</h2>
+
+    <div class="social">
+        <div class="social-item">
+            <i class="fa fa-map-marker"></i>
+            <span>Room 302, Building 25 Department of Statistics Seoul National University 1 Gwanak-ro, Gwanak-gu Seoul, 08826, Korea</span>
+        </div>
+        <div class="social-item">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:twinwood@snu.ac.kr">twinwood@snu.ac.kr</a>
+        </div>
+        <div class="social-item">
+            <i class="fa fa-phone"></i>
+            <span>Phone: +82-2-880-8838 <br>
+                Fax: +82-2-883-6144</span>
+        </div>
+    </div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+:root {
+	--primary-color: #3a4052;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+h1 {
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+.showcase {
+    height: 50vh;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: #a0c4ff;
+    padding-top: 50px;
+    background-image: url('/assets/img/cover.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional for parallax effect */
+}
+
+.showcase {
+    position: relative; /* Needed for the absolute positioning of the pseudo-element */
+}
+
+.showcase::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(76, 75, 75, 0.622); /* White background with 50% opacity */
+    z-index: 1; /* Ensures the overlay is above the background image but below the content */
+}
+
+.content {
+    position: relative; /* Ensures the text content is above the overlay */
+    z-index: 2;
+}
+
+.container-md {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+}
+
+.intro-header {
+    margin: 0 !important;
+}
+
+.content {
+	z-index: 2;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background: var(--primary-color);
+	color: #fff;
+	border-radius: 5px;
+	border: solid #fff 1px;
+	margin-top: 25px;
+	opacity: 0.7;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+#about {
+	padding: 40px;
+	text-align: center;
+}
+
+#about p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+#about h2 {
+	margin: 30px 0;
+	color: var(--primary-color);
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Keeps it as a single column */
+    gap: 10px; /* Adjust the space between grid items */
+    width: 40%; /* Reduces the width of the grid to 50% of its parent */
+    margin: 0 auto; /* Centers the grid horizontally */
+    word-wrap: break-word; /* Allows text to wrap within the grid items */
+}
+
+.social-item i {
+    font-size: 2rem; /* Makes the icons bigger */
+    margin-bottom: 10px; /* Adds some space below the icons */
+}
+
+.social-item span, .social-item a {
+    font-size: 1rem; /* Adjusts the font size for readability */
+    color: var(--secondary-color); /* Change to your preferred color */
+    padding: 5px; /* Adds padding for better spacing */
+    display: inline-block; /* Helps with applying padding */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.social-item a:hover {
+    text-decoration: underline; /* Adds underline on hover for links */
+}
+
+.social-item {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    text-align: center; /* Ensures text is centered under the icon */
+    margin-bottom: 20px; /* Adds some space between each social-item */
+}
+
+.research-interests {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers the items horizontally */
+    text-align: left; /* Aligns text to the left */
+    width: fit-content; /* Shrinks the width to fit the content */
+    margin: 0 auto; /* Centers the list in the parent container */
+}
+
+.research-interests li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+@media (max-width: 768px) {
+    .showcase h1 {
+        font-size: 40px; /* Adjust this value as needed for mobile devices */
+    }
+}
+
+@media (max-width: 768px) {
+    .social-item span, .social-item a {
+        width: 100%; /* Makes span and a elements take the full width */
+        box-sizing: border-box; /* Ensures padding and border are included in the width */
+    }
+
+    .social {
+        width: 70%; /* Increases the width of the social grid on mobile for more space */
+    }
+}
+
+</style>

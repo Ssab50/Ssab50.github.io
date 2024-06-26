@@ -29,3 +29,41 @@ layout: base
     </div>
   </div>
 </main>
+
+<style>
+  /* list no decorator */
+  h1 {
+    margin-bottom: 30px;
+  }
+
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .info-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.avatar img{
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    grid-template-columns: 1fr;
+  }
+
+  .avatar img {
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+    max-width: 150px; /* Keeps the existing max-width */
+  }
+}
+</style>
