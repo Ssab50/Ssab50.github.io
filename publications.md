@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Publications
+subtitle: Selected Peer-Reviewed Journals
 ---
-# Selected Peer-Reviewed Journals
-
 **Lim, C.** and Wu, W. (2022)  
 *Conditions on which cokriging does not better than kriging.*  
 *Journal of Multivariate Analysis. 192, 105084.*  
@@ -88,3 +87,10 @@ Chakraborty, P., Meerschaert, M. M. and **Lim, C.** (2009)
 *Properties of spatial cross-periodograms using fixed-domain asymptotics.*  
 *Journal of Multivariate Analysis, 99, 1962-1984.*  
 [Link to Article](https://doi.org/10.1016/j.jmva.2008.02.005)
+
+
+<style>
+    .page-subheading {
+        font-weight: 500 !important;
+    }
+</style>
