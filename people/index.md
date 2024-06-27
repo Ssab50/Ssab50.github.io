@@ -52,8 +52,6 @@ subtitle: Members of the lab
   </div>
 </div>
 
-
-
 <div class="person-container">
   <div class="image-container">
     <img src="/people/yeongseob/files/yeongseob.jpg" alt="Yeongseob Oh">
@@ -83,7 +81,7 @@ subtitle: Members of the lab
     <p>M.S. Student (2023~)</p>
   </div>
 </div>
-</div>
+
 
 <div class="person-container">
   <div class="image-container">
@@ -94,7 +92,7 @@ subtitle: Members of the lab
     <p>M.S. Student (2024~)</p>
   </div>
 </div>
-</div>
+
 
 <div class="person-container">
   <div class="image-container">
