@@ -85,6 +85,27 @@ subtitle: Members of the lab
 </div>
 </div>
 
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/gooyoung/files/gooyoung.jpg" alt="Gooyoung Kim">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/gooyoung/">Gooyoung Kim</a>
+    <p>M.S. Student (2024~)</p>
+  </div>
+</div>
+</div>
+
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/heonjeong/files/heonjeong.jpg" alt="Heonjeong Kwon">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/heonjeong/">Heonjeong Kwon</a>
+    <p>M.S. Student (2024~)</p>
+  </div>
+</div>
+</div>
 
 <h1>Alumni</h1>
 
