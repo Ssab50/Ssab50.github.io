@@ -117,43 +117,53 @@ subtitle: Members of the lab
   </thead>
   <tbody>
     <tr>
-      <td>Wei-Ying Wu</td>
-      <td>Ph.D. 2011</td>
-      <td>Professor at National Dong Hwa University, Taiwan</td>
-    </tr>
-    <tr>
-      <td>Xin Qi</td>
-      <td>Ph.D. 2014</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sukhwan Kim</td>
-      <td>MS. 2017</td>
-      <td>NICE Information Service</td>
-    </tr>
-    <tr>
-      <td>Minwoo Kim</td>
-      <td>MS. 2017</td>
-      <td>Assistant Professor at Pusan National University</td>
-    </tr>
-    <tr>
-      <td>Euntaeg Go</td>
-      <td>MS. 2018</td>
+      <td>Sujung Kim</td>
+      <td>MS. 2024</td>
       <td>Samsung Electronics</td>
     </tr>
-    <tr>
-      <td>Yujin Shin</td>
-      <td>MS. 2018</td>
-      <td>Korea Credit Bureau</td>
+ <tr>
+      <td>Sujeong Jin</td>
+      <td>MS. 2024</td>
+      <td>Samsung Electronics</td>
+    </tr>
+ <tr>
+      <td>Songhyun Kim</td>
+      <td>Ph.D. 2024</td>
+      <td>Presto Labs</td>
+    </tr>
+<tr>
+      <td>Taejun Park</td>
+      <td>MS. 2023</td>
+      <td>Samsung Electronics</td>
+    </tr>
+   <tr>
+      <td>Joonho Shin</td>
+      <td>Ph.D. 2023</td>
+      <td>Assistant Professor at Sungshin Women's University</td>
     </tr>
     <tr>
-      <td>Eunseong Bae</td>
-      <td>MS. 2019</td>
-      <td>Ph.D. student in University of California, Davis</td>
+      <td>Hojun You</td>
+      <td>Ph.D. 2022</td>
+      <td>Postdoctoral Fellow in University of Houston, USA</td>
     </tr>
-    <tr>
-      <td>Kyeongeun Kim</td>
-      <td>MS. 2019</td>
+  <tr>
+      <td>Jin U Soh</td>
+      <td>MS. 2021</td>
+      <td>Ph.D. student in Seoul National University</td>
+    </tr>
+   <tr>
+      <td>Yoon-Bae Jun</td>
+      <td>Ph.D. 2021</td>
+      <td>Postdoctoral Fellow in Iowa State University, USA</td>
+    </tr>
+<tr>
+      <td>Elias Wennberg</td>
+      <td>MS. 2020</td>
+      <td>Data science lead in Bluebird Media</td>
+    </tr>
+     <tr>
+      <td>Mongju Jeong</td>
+      <td>MS. 2020</td>
       <td>Ph.D. student in Seoul National University</td>
     </tr>
     <tr>
@@ -161,55 +171,45 @@ subtitle: Members of the lab
       <td>MS. 2020</td>
       <td>Samsung Electronics</td>
     </tr>
-    <tr>
-      <td>Mongju Jeong</td>
-      <td>MS. 2020</td>
+   <tr>
+      <td>Kyeongeun Kim</td>
+      <td>MS. 2019</td>
       <td>Ph.D. student in Seoul National University</td>
     </tr>
-    <tr>
-      <td>Elias Wennberg</td>
-      <td>MS. 2020</td>
-      <td>Data science lead in Bluebird Media</td>
+ <tr>
+      <td>Eunseong Bae</td>
+      <td>MS. 2019</td>
+      <td>Ph.D. student in University of California, Davis</td>
     </tr>
     <tr>
-      <td>Yoon-Bae Jun</td>
-      <td>Ph.D. 2021</td>
-      <td>Postdoctoral Fellow in Iowa State University, USA</td>
+      <td>Yujin Shin</td>
+      <td>MS. 2018</td>
+      <td>Korea Credit Bureau</td>
     </tr>
-    <tr>
-      <td>Jin U Soh</td>
-      <td>MS. 2021</td>
-      <td>Ph.D. student in Seoul National University</td>
-    </tr>
-    <tr>
-      <td>Hojun You</td>
-      <td>Ph.D. 2022</td>
-      <td>Postdoctoral Fellow in University of Houston, USA</td>
-    </tr>
-    <tr>
-      <td>Joonho Shin</td>
-      <td>Ph.D. 2023</td>
-      <td>Assistant Professor at Sungshin Women's University</td>
-    </tr>
-    <tr>
-      <td>Taejun Park</td>
-      <td>MS. 2023</td>
+     <tr>
+      <td>Euntaeg Go</td>
+      <td>MS. 2018</td>
       <td>Samsung Electronics</td>
     </tr>
-    <tr>
-      <td>Songhyun Kim</td>
-      <td>Ph.D. 2024</td>
-      <td>Presto Labs</td>
+   <tr>
+      <td>Minwoo Kim</td>
+      <td>MS. 2017</td>
+      <td>Assistant Professor at Pusan National University</td>
     </tr>
     <tr>
-      <td>Sujeong Jin</td>
-      <td>MS. 2024</td>
-      <td>Samsung Electronics</td>
+      <td>Sukhwan Kim</td>
+      <td>MS. 2017</td>
+      <td>NICE Information Service</td>
     </tr>
-    <tr>
-      <td>Sujung Kim</td>
-      <td>MS. 2024</td>
+     <tr>
+      <td>Xin Qi</td>
+      <td>Ph.D. 2014</td>
       <td></td>
+    </tr>
+<tr>
+      <td>Wei-Ying Wu</td>
+      <td>Ph.D. 2011</td>
+      <td>Professor at National Dong Hwa University, Taiwan</td>
     </tr>
   </tbody>
 </table>
