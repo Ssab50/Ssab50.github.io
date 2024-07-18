@@ -74,31 +74,12 @@ h1 {
     justify-content: center;
     text-align: center;
     color: #fff;
-    background-color: #a0c4ff;
+    background-color: rgba(47, 41, 186, 0.8); /* 단색 배경 */
     padding-top: 50px;
-    background-image: url('/assets/img/cover.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Optional for parallax effect */
-}
-
-.showcase {
-    position: relative; /* Needed for the absolute positioning of the pseudo-element */
-}
-
-.showcase::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(76, 75, 75, 0.622); /* White background with 50% opacity */
-    z-index: 1; /* Ensures the overlay is above the background image but below the content */
 }
 
 .content {
-    position: relative; /* Ensures the text content is above the overlay */
+    position: relative;
     z-index: 2;
 }
 
